@@ -2,7 +2,7 @@
 
 So, I took the default firmware and just made a couple of tweaks that make it easier to use with OS X:
 
-
+```
 /* Keymap 0: Basic layer
  *
  * ,--------------------------------------------------.           ,--------------------------------------------------.
@@ -66,3 +66,4 @@ So, I took the default firmware and just made a couple of tweaks that make it ea
  *                                 |      |      |      |       |      |      |      |
  *                                 `--------------------'       `--------------------'
  */
+```
