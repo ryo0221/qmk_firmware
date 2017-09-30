@@ -21,7 +21,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * |--------+------+------+------+------+------| LEFT |           |RIGHT |------+------+------+------+------+--------|
  * | LShift |   Z  |   X  |   C  |   V  |   B  |      |           |      |   N  |   M  |   ,  |   .  |   /  | RShift |
  * `--------+------+------+------+------+-------------'           `-------------+------+------+------+------+--------'
- *   |Grv/L1|  '"  |Caps/Alt |  Del |Backsp|                                       |  Up  | Down |   [  |   ]  | ~L1  |
+ *   |Grv/L1|  Command  |Caps/Alt |  Del |Backsp|                                       |  Up  | Down |   [  |   ]  | ~L1  |
  *   `----------------------------------'                                       `----------------------------------'
  *                                        ,-------------.       ,---------------.
  *                                        | Eisu | LGui |       | Alt  | Kana   |
@@ -39,7 +39,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_TAB,         KC_Q,         KC_W,   KC_E,   KC_R,   KC_T,   TG(MDIA),
         KC_LCTRL,       KC_A,         KC_S,   KC_D,   KC_F,   KC_G,
         KC_LSFT,        KC_Z,         KC_X,   KC_C,   KC_V,   KC_B,   KC_LEFT,
-        LT(SYMB,KC_GRV),KC_QUOT,LT(KC_LALT, KC_CAPSLOCK), KC_DEL,  KC_BSPC,
+        LT(SYMB,KC_GRV),KC_LGUI,LT(KC_LALT, KC_CAPSLOCK), KC_DEL,  KC_BSPC,
                                               KC_LANG2,  KC_LGUI,
                                                               KC_HOME,
                                                KC_SPC,KC_BSPC,KC_END,
