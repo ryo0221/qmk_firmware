@@ -1,3 +1,8 @@
+# How to compile
+```
+qmk_firmware$make keyboard=ergodox_ez keymap=tsutsui
+```
+
 # The OSX Friendly Version of the Default Firmware
 
 So, I took the default firmware and just made a couple of tweaks that make it easier to use with OS X:
